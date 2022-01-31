@@ -10,7 +10,7 @@ source:
   sha256: e84825d1650954c103705bd79d26434728fca5eb1641690ac39aaab30189d587
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   missing_dso_whitelist:
     - '*/libgcc_s.so.1'
