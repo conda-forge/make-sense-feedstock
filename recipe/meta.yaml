@@ -1,5 +1,5 @@
 {% set name = "make-sense" %}
-{% set version = "1.7.0" %}
+{% set version = "1.11.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/SkalskiP/make-sense/archive/{{ version }}-alpha.tar.gz
-  sha256: 1772303157d4108840156f758d97c717d75373588973c5cc054d8224f122ffb0
+  sha256: cbe49b786de2b4fc4290adafb0af396608fb7ddd878e88259437310d749f93a8
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   missing_dso_whitelist:
     - '*/libgcc_s.so.1'
